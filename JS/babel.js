@@ -20,7 +20,7 @@ buttonMenu.addEventListener('click',() => {
 })
 
 firstBtn.addEventListener('click',() => {
-    imgPho.src = './images/right-block.jpeg'
+    imgPho.src = './images/firstly.jpg'
     firstBtn.style.backgroundColor = '#180EF3'
     firstBtn.style.marginTop = '5px'
     secBtn.style.marginTop = '0px'
@@ -31,13 +31,34 @@ firstBtn.addEventListener('click',() => {
 
 
 secBtn.addEventListener('click',() => {
-    imgPho.src = './images/avtoservis-header.jpg'
+    imgPho.src = './images/second.jpg'
     secBtn.style.marginTop = '5px'
     firstBtn.style.marginTop = '0px'
     secBtn.style.backgroundColor = '#180EF3'
     firstBtn.style.backgroundColor = '#212121'
     thriBtn.style.backgroundColor = '#212121'
     forBtn.style.backgroundColor = '#212121'
+})
+
+thriBtn.addEventListener('click',() => {
+    imgPho.src = './images/thri.jpg'
+    firstBtn.style.backgroundColor = '#212121'
+    firstBtn.style.marginTop = '5px'
+    secBtn.style.marginTop = '0px'
+    secBtn.style.backgroundColor = '#212121'
+    thriBtn.style.backgroundColor = '#180EF3'
+    forBtn.style.backgroundColor = '#212121'
+})
+
+
+forBtn.addEventListener('click',() => {
+    imgPho.src = './images/four.png'
+    secBtn.style.marginTop = '5px'
+    firstBtn.style.marginTop = '0px'
+    secBtn.style.backgroundColor = '#212121'
+    firstBtn.style.backgroundColor = '#212121'
+    thriBtn.style.backgroundColor = '#212121'
+    forBtn.style.backgroundColor = '#180EF3'
 })
 
 const boxBgContact = document.querySelector('.bg-box-white')
