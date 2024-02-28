@@ -572,7 +572,7 @@ background-size: cover;
 background-position: center;
 }
 .dollars-sect__cont-uslug:nth-child(2){
-background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/stock-photo-car-painter-in-protective-clothes-and-mask-painting-automobile-bumper-with-metallic-paint-and-1958871004-transformed.jpeg);
+background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://kak-kupit-auto.ru/wp-content/uploads/2020/07/010-1.jpg);
 background-size: cover;
 background-position: center;
 }
@@ -587,12 +587,12 @@ background-size: cover;
 background-position: center;
 }
 .dollars-sect__cont-uslug:nth-child(5){
-background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/stock-photo-details-of-car-cleaning-male-using-professional-steam-vacuum-for-dirty-car-interior-650651476-transformed.jpeg);
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/10f34ad57346c16622c6a8f6ccf64214.jpg);
 background-size: cover;
 background-position: center;
 }
 .dollars-sect__cont-uslug:nth-child(6){
-    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/10f34ad57346c16622c6a8f6ccf64214.jpg);
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://up-s.ru/upload/iblock/8a1/8a1ea252a2e48719662d27a60fd596cd.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -733,6 +733,7 @@ margin-top: 20px;
     color: #FFFFFF;
     font-size: 60px;
     z-index: 1004;
+    cursor: pointer;
 }
 .nonhidden {
 display: block;
